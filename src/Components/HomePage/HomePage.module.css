@@ -64,30 +64,38 @@
   background: rgb(39, 39, 39);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .imgSection{
   opacity: 0.2;
-  margin-left: -50px;
+  margin: auto;
+  margin-left: 1.5em;
 }
 .inputSection input{
-  border: none;
   opacity: 0.2;
   background: rgb(39, 39, 39);
-  padding: 12px;
+  margin: auto;
+  margin-left: -1em;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 5px;
+  border: none;
 }
 .inputSection  button{
     background: #E3B748;
     width: 137px;
     height: 60px;
     border-radius: 43px;
-    margin-right: -6em;
     border: none;
+    margin: auto;
+    margin-right: 0.5em;
 }
 .heroImg {
   margin: auto;
-  height: 150%;
-  width: 30%;
+  height: 100%;
+  width: 60%;
+
+
 
 
 }

@@ -42,13 +42,13 @@ import ImageHero from "../../assests/ImageHero.png";
                     </div>
                     <div className={styles.inputSection}>
                        <img src={messageIcon} className={styles.imgSection} alt="messageBox" width={22} height={18} />
-                       <div className={styles.inputCont}>
+                       
                        <input
 						type="text"
 						value={emailId}
 						onChange={handleChange}
 						placeholder="Enter your email address"></input>
-                       </div>
+                    
                        <button onClick={handleClick}>Let’s Talk</button>
                     </div>
                     </Grid>
