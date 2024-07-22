@@ -1,20 +1,41 @@
 .ChooseUSsection{
-    /* width: 190vh; */
-    height: 50vh;
+    padding: 100px;
     color: white;
-    background: rgb(30, 29, 29);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 139px;
-    margin: auto;
-
+    background: #1D1D1D;
+    text-align: center;
 }
 .ChooseUSsection h1{
     font-family: Inter;
     font-size: 54px;
     font-weight: 600;
     line-height: 87.22px;
-    text-align: left;
-
+}
+.cardSection{
+    padding: 100px;
+    color: white;
+    background: #1D1D1D;
+}
+.card {
+    background: #1D1D1D !important;
+    border: 1.4px solid #FFFFFF1A !important;
+    border-radius: 14px !important;
+}
+.title{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 15px;
+  
+    
+}
+.description{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22.75px;
+    opacity: 0.3;
+    margin-top: 15px;
 }
