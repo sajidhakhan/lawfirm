@@ -1,0 +1,20 @@
+.ChooseUSsection{
+    /* width: 190vh; */
+    height: 50vh;
+    color: white;
+    background: rgb(30, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 139px;
+    margin: auto;
+
+}
+.ChooseUSsection h1{
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87.22px;
+    text-align: left;
+
+}

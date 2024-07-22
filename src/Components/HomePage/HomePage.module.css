@@ -31,10 +31,10 @@
     padding: 0 20px;
     width: 172px;
     height: 47px;
-     border: 2px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
 }
 .hero{
-   margin-top: 8em;
+   margin-top: 6em;
 }
 
 .text1{
@@ -72,6 +72,7 @@
   margin-left: 1.5em;
 }
 .inputSection input{
+  color: #FFFFFF;
   opacity: 0.2;
   background: rgb(39, 39, 39);
   margin: auto;
@@ -94,10 +95,8 @@
   margin: auto;
   height: 100%;
   width: 60%;
-
-
-
-
 }
-
-
+input:focus{
+  outline: none;
+  color: #FFFFFF;
+}

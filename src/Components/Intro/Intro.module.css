@@ -1,0 +1,45 @@
+.IntroContainer{
+    width: 100%;
+    color: white;
+    background: #1D1D1D;
+}
+.IntroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 100px;
+    padding-bottom: 0;
+}
+.leftSection {
+    width: 50%;
+    padding: 0px 50px;
+}
+.leftSection h1{
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87.22px;
+    text-align: left;
+    line-height: 161.523%;
+}
+.rightSection{
+    width: 50%;
+    padding: 0px 50px;
+}
+.rightSection h2{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52.01px;
+    text-align: left;
+ 
+    
+}
+.rightSection p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.25px;
+	opacity: 0.3;
+}
