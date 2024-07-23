@@ -1,0 +1,14 @@
+.practiceContainer{
+    /* padding: 80px; */
+    background: #1D1D1D;
+    color: white;
+}
+.practiceContainer h1 {
+       
+        font-family: Inter;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 87.22px;
+        text-align: center;
+    
+}

@@ -3,7 +3,6 @@ import styles from './ChooseUs.module.css'
 import Card from '@mui/material/Card';
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 import { cards } from "../../constants";
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
@@ -12,9 +11,7 @@ export default function ChooseUS() {
   return (
     <>
     <div className={styles.chooseContainer}>
-      <div className={styles.ChooseUSsection}>
         <h1>Why Choose us?</h1>
-      </div>
       <div className={styles.cardSection}>
       <Grid container spacing={0}> 
         {cards.map((card, index) => (

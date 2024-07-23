@@ -3,14 +3,13 @@
     color: white;
     background: #1D1D1D;
 }
-.ChooseUSsection{
-    text-align: center;
-}
-.ChooseUSsection h1{
+
+.chooseContainer h1{
     font-family: Inter;
     font-size: 54px;
     font-weight: 600;
     line-height: 87.22px;
+    text-align: center;
 }
 .cardSection{
 	margin: 57px;
@@ -25,6 +24,12 @@
 	margin-left: 20px;
 	margin-right: 20px;
 }
+.card:hover {
+    background: #2E2E2E !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+  }
 .title{
     color: #FFFFFF;
     font-family: Inter;

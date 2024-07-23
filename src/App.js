@@ -1,6 +1,7 @@
 import ChooseUS from "./Components/ChooseUs/ChooseUS";
 import HomePage from "./Components/HomePage/HomePage";
 import Intro from "./Components/Intro/Intro";
+import Practices from "./Components/Practices/Practices";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
    <HomePage />
    <Intro />
    <ChooseUS />
+   <Practices />
    </>
   );
 }
