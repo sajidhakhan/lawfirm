@@ -1,7 +1,9 @@
-.ChooseUSsection{
-    padding: 100px;
+.chooseContainer{
+    padding: 80px;
     color: white;
     background: #1D1D1D;
+}
+.ChooseUSsection{
     text-align: center;
 }
 .ChooseUSsection h1{
@@ -11,14 +13,17 @@
     line-height: 87.22px;
 }
 .cardSection{
-    padding: 100px;
-    color: white;
-    background: #1D1D1D;
+	margin: 57px;
+    padding: 10px;
 }
 .card {
     background: #1D1D1D !important;
     border: 1.4px solid #FFFFFF1A !important;
     border-radius: 14px !important;
+    padding-top: 20px;
+	padding-left: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .title{
     color: #FFFFFF;
@@ -26,9 +31,8 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 24px;
-    margin-top: 15px;
-  
-    
+    margin-top: 5px;
+    margin-bottom:15px; 
 }
 .description{
     color: #FFFFFF;
@@ -37,5 +41,16 @@
     font-weight: 500;
     line-height: 22.75px;
     opacity: 0.3;
-    margin-top: 15px;
+    margin-top: 10px;
+     
+}
+.button{
+    width: 121px !important;
+	height: 43px !important;
+	border-radius: 23.5px !important; 
+	background: #E3B748 !important;
+	color: #000000 !important;
+	cursor: pointer;
+    margin-left: 12px !important;
+    margin-top: 7px !important;
 }

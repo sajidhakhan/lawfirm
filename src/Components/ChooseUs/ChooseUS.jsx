@@ -11,18 +11,18 @@ import Grid from '@mui/material/Grid';
 export default function ChooseUS() {
   return (
     <>
+    <div className={styles.chooseContainer}>
       <div className={styles.ChooseUSsection}>
         <h1>Why Choose us?</h1>
       </div>
       <div className={styles.cardSection}>
-      <Grid container spacing={1}> {/* Add spacing between cards */}
+      <Grid container spacing={0}> 
         {cards.map((card, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}> {/* Adjust grid sizes as needed */}
-            <Card className={styles.card} sx={{ width: 359, height: 377  }}>
+          <Grid item xs={12} sm={6} md={4} key={index}>
+            <Card className={styles.card} sx={{ width: 359, height: 377 }}>
               <CardMedia component="img"  image={card.image} alt={card.title} sx={{
                   width: 101,
-                  height: 101,
-                 
+                  padding : '10px'
                 }} />
               <CardContent>
                 <h5 className={styles.title}>
@@ -32,7 +32,7 @@ export default function ChooseUS() {
                   {card.description}
                 </p>
               </CardContent>
-              <Button size="small" href={card.readMoreLink}>
+              <Button className={styles.button}  href={card.readMoreLink}>
                 Read More
               </Button>
             </Card>
@@ -40,7 +40,7 @@ export default function ChooseUS() {
         ))}
       </Grid>
     </div>
-      
+  </div>   
     </>
    
   )
