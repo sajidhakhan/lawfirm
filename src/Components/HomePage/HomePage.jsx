@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import styles from "./HomePage.module.css";
 import messageIcon from "../../assests/MessageIcon.png";
 import React, { useState } from "react";
-import ImageHero from "../../assests/ImageHero.png";
+import ImageHero from "../../assests/hero.png";
 
     const HomePage = () => {
         const [emailId, setEmailId] = useState("");

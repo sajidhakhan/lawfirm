@@ -19,7 +19,7 @@
 .gridItem {
     position: relative;
 }
-img:hover {
+.gridItem img:hover {
    
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
