@@ -6,16 +6,19 @@ import Button from "@mui/material/Button";
 import { cards } from "../../constants";
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
 
 export default function ChooseUS() {
   return (
     <>
     <div className={styles.chooseContainer}>
-        <h1>Why Choose us?</h1>
-      <div className={styles.cardSection}>
-      <Grid container spacing={0}> 
+        <div>
+          <h1>Why Choose us?</h1>
+        </div>
+      <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={0} className={styles.cardSection} > 
         {cards.map((card, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
+          <Grid item key={index}>
             <Card className={styles.card} sx={{ width: 359, height: 377 }}>
               <CardMedia component="img"  image={card.image} alt={card.title} sx={{
                   width: 101,
@@ -36,8 +39,8 @@ export default function ChooseUS() {
           </Grid>
         ))}
       </Grid>
-    </div>
-  </div>   
+    </Box> 
+    </div>  
     </>
    
   )

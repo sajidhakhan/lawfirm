@@ -1,7 +1,7 @@
 .chooseContainer{
-    padding: 80px;
     color: white;
     background: #1D1D1D;
+    
 }
 
 .chooseContainer h1{
@@ -10,10 +10,14 @@
     font-weight: 600;
     line-height: 87.22px;
     text-align: center;
+    
+  
 }
 .cardSection{
-	margin: 57px;
-    padding: 10px;
+    padding-top: 80px;
+    
+    justify-content: center;
+    
 }
 .card {
     background: #1D1D1D !important;

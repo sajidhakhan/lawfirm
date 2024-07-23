@@ -1,14 +1,74 @@
 .practiceContainer{
-    /* padding: 80px; */
+    padding-top: 130px;
     background: #1D1D1D;
     color: white;
 }
-.practiceContainer h1 {
-       
-        font-family: Inter;
-        font-size: 54px;
-        font-weight: 600;
-        line-height: 87.22px;
-        text-align: center;
+.headingContainer h1 {  
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87.22px;
+    text-align: center;      
+}
+.imageContainer{
+    padding-top: 70px;
+    width: 1140px;
+    margin: auto;
+   
+}
+.gridItem {
+    position: relative;
+}
+img:hover {
+   
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    filter: brightness(30%);
     
+  
+  }
+.largeImg{
+    width: 752px;
+    height: 342px;
+    object-fit: cover;
+    opacity: 0.7;
+    border-radius: 14px; 
+   
+}
+.smallImg{
+    width: 358px;
+    height: 342px;
+    object-fit: cover;
+    opacity: 0.7;
+    border-radius: 14px;  
+    transition: 0.5s all ease-in-out;
+}
+.text1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+	left: 0;
+    right: 0;
+    bottom: 8%;
+
+}
+.text2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+	left: 0;
+    right: 0;
+    bottom: 8%;
+
 }
