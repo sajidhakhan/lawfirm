@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './FQA.module.css';
+import styles from './FAQ.module.css';
 import { questions } from '../../constants';
 import accordion from '../../assests/accordion.png';
 import Stack from '@mui/material/Stack';
