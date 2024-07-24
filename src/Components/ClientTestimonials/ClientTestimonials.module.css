@@ -70,3 +70,14 @@
     margin-top: 25px;
      
 }
+.prev,
+.next {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+:global(.swiper-button-prev)::after,
+:global(.swiper-button-next)::after {
+  display: none;
+}
