@@ -3,8 +3,9 @@ import HomePage from "./Components/HomePage/HomePage";
 import Intro from "./Components/Intro/Intro";
 import Practices from "./Components/Practices/Practices";
 import ClientTestimonials from './Components/ClientTestimonials/ClientTestimonials';
-// import CilentCards from "./Components/ClientTestimonials/CilentCards";
 import Team from './Components/Team/Team';
+import FAQ from "./Components/FAQ/FAQ";
+import NewsLetter from "./Components/NewsLetter/NewsLetter";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
    <ClientTestimonials />
    {/* <CilentCards /> */}
    <Team />
+   <FAQ />
+   <NewsLetter />
    </>
   );
 }
