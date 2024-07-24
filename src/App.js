@@ -6,6 +6,7 @@ import ClientTestimonials from './Components/ClientTestimonials/ClientTestimonia
 import Team from './Components/Team/Team';
 import FAQ from "./Components/FAQ/FAQ";
 import NewsLetter from "./Components/NewsLetter/NewsLetter";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
    <Team />
    <FAQ />
    <NewsLetter />
+   <Footer />
    </>
   );
 }

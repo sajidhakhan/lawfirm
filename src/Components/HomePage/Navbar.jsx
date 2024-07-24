@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./HomePage.module.css";
 import LogoImage from "../../assests/logo.png"
 
-const Navbar = () => {
+const Navbar = ( component ) => {
   return (
     <nav className={styles.navbar}>
       <img src={LogoImage} alt="logo" width={130} />        
@@ -16,6 +16,7 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
+      
       <button className={styles.button}>Contact Now</button>
     </nav>
   );
